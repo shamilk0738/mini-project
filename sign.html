@@ -15,7 +15,7 @@
 
         body {
 
-            background-image: url("shamil3.jpg");
+            background-image: url("photop.png");
             background-size: cover;
             backdrop-filter: brightness(40%);
             color: #fff;
@@ -36,16 +36,19 @@
 
         header {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
+            text-align: center;
             margin-bottom: 60px;
+
         }
 
         .logo {
-            font-size: 28px;
+            font-size: 40px;
             font-weight: 700;
             color: #fff;
             text-decoration: none;
+            align-items: center;
         }
 
         nav {
@@ -96,6 +99,10 @@
             min-width: 300px;
             padding-right: 40px;
         }
+        .about-text p{
+            font-size: 20px;
+        }
+        
 
         .about-image {
             flex: 1;
@@ -215,6 +222,21 @@
             padding: 20px 0;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
+        .button {
+            padding: 20px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+    
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
 
         @media (max-width: 768px) {
             header {
@@ -248,6 +270,11 @@
             .about-text {
                 text-align: center;
             }
+            
+        }
+        .about-content{
+            display: flex;
+            flex-direction: column;
         }
 
     </style>
@@ -258,10 +285,10 @@
     <nav>
         <div class="logo"><a href="#">ᴛᴏʀQᴜᴇ ᴀᴜᴛᴏ ᴡᴏʀᴋꜱ</a></div>
         <ul>
-            <li><a href="sign.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="service.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
 
@@ -274,18 +301,19 @@
 
             <section class="about-content">
                 <div class="about-text">
-                    <h1>About Us</h1>
+
                     <p>At ᴛᴏʀQᴜᴇ Services, we are committed to providing top-notch vehicle servicing that ensures
                          your car runs smoothly, efficiently,
                          and safely. Our expert team offers a wide range of services, from routine maintenance to
                           complex repairs, all tailored to meet your specific needs. Whether it's an oil change, tire rotation, 
                          brake inspection, or diagnostic check, we handle it with the utmost care and precision.</p>
-                    <p>We understand that your vehicle is an essential part of your daily life, which is why we aim to minimize 
-                        downtime and provide reliable, trustworthy services that keep you on the road. Our mission is to deliver
-                         high-quality repairs and maintenance at affordable prices, using only the best parts and tools available.</p>
-                    <p>With years of experience and a passion for vehicles, ᴛᴏʀQᴜᴇ Services is here to ensure your car gets the best care,
-                         keeping you safe and your vehicle running at its peak performance.</p>
+                         <p>we offer a wide range of vehicle services designed to keep your car running smoothly and safely. Our skilled technicians have years of experience and use advanced tools to ensure that your vehicle receives the best care possible. Whether you're dealing with a minor issue or need major repairs, we’ve got you covered with our reliable and affordable services.</p>
+                         
+
+             
                 </div>
+                
+                <a class="button" href="index.html">sign in</a>
 
             </section>
 
